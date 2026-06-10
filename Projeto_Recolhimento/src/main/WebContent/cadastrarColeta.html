@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Agendar Coleta</title>
+<link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+	<div class="form-container">
+	
+		<h2 class="nome">Solicitar Recolhimento</h2>
+		
+		<form action="insert" method="post">
+			<label class="endereco">Endereço/Logradouro:</label> 
+				<input type="text" name="logradouro" required>
+			 
+			<label class="classificacao">Tipo de Entulho:</label>
+				<select name="material">
+					<option value="Construção/Alvenaria" class="opcao">Construção/Alvenaria</option>
+					<option value="Poda de Árvores" class="opcao">Poda de Árvores</option>
+					<option value="Móveis/Madeira" class="opcao">Móveis/Madeira</option>
+				</select>
+			
+			<label class="quantidade">Volume:</label> 
+				<input type="text" name="volume" placeholder="Ex: pouco, medio, grande"> 
+				<input type="submit" value="Confirmar Agendamento" class="enviar">
+			
+		</form>
+		
+		<br> <a href="index.html" class="retorno">Voltar ao Início</a>
+	</div>
+</body>
+</html>

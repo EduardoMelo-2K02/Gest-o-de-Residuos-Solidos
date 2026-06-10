@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+	color: #1b5e20; margin-bottom: 30px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.linkcadastro, .linkcoleta {
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.linkcadastro {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.linkcoleta {
+    background-color: #1b5e20;
+    color: white;
+}
+
+.linkcadastro:hover, .linkcoleta:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}

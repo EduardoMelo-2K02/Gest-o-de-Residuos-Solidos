@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.nome{
+	color: #2e7d32;
+	margin-top: 0;
+	text-align: center;
+}
+
+label { font-weight: 600; color: #555; display: block; margin-top: 15px; }
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus { border-color: #2e7d32; outline: none; }
+
+.enviar {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover { background-color: #1b5e20; }
